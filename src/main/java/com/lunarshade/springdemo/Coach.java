@@ -1,5 +1,6 @@
 package com.lunarshade.springdemo;
 
 public interface Coach {
-    public void getDailyWorkout();
+    public String getDailyWorkout();
+    public String getDailyFortune();
 }

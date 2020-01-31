@@ -6,7 +6,8 @@ public class MyApp {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         Coach baseballCoach = applicationContext.getBean("myCoach", Coach.class);
-        baseballCoach.getDailyWorkout();
+        System.out.println(baseballCoach.getDailyWorkout());
+        System.out.println(baseballCoach.getDailyFortune());
 
         applicationContext.close();
     }
