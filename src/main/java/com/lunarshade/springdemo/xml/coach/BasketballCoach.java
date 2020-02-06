@@ -1,4 +1,6 @@
-package com.lunarshade.springdemo;
+package com.lunarshade.springdemo.xml.coach;
+
+import com.lunarshade.springdemo.xml.fortune.FortuneService;
 
 public class BasketballCoach implements Coach {
 

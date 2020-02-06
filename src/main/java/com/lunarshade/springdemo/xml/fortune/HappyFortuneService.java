@@ -1,4 +1,4 @@
-package com.lunarshade.springdemo;
+package com.lunarshade.springdemo.xml.fortune;
 
 public class HappyFortuneService implements FortuneService {
     public String getFortune() {

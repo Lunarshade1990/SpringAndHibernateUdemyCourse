@@ -1,4 +1,4 @@
-package com.lunarshade.springdemo;
+package com.lunarshade.springdemo.xml.coach;
 
 public interface Coach {
     public String getDailyWorkout();
