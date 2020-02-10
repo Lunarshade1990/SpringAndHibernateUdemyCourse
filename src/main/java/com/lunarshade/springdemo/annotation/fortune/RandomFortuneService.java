@@ -1,15 +1,17 @@
-package com.lunarshade.springdemo.xml.fortune;
+package com.lunarshade.springdemo.annotation.fortune;
+
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class RandomFortune implements FortuneService {
-
+@Component
+public class RandomFortuneService implements FortuneService {
     List<String> fortunes;
 
 
-    public RandomFortune() {
+    public RandomFortuneService() {
         fortunes = new ArrayList<>();
         fortunes.add("Сегодня удачный день!");
         fortunes.add("Тебя ждёт приглашение на работу!");
